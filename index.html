@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mockup Test Ocistok</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/font.css">
+        <link rel="stylesheet" href="assets/css/all.css">
+        <script defer src="assets/js/all.js"></script>
+    </head>
+
+    <body>
+        <header class="bg-custom">
+            <div class="container-fluid px-5 d-none d-lg-block">
+                <div class="row justify-content-space-between">
+                    <a class="col-auto my-auto">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </a>
+                    <div class="col-5 my-3">
+                        <div class="input-group">
+                            <input type="search" class="form-control form-control-sm font-12 p-2 b-y-l-10 border-none" placeholder="Belanja apa hari ini?" style="box-shadow: none;">
+                            <button class="btn btn-sm btn-group-append px-3 b-y-r-10" type="button" id="button-addon2"  style="box-shadow: none;">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-auto my-auto">
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-sm btn-custom font-w-600 border-radius-20 px-3">
+                                    Login
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-sm btn-custom font-w-600 border-radius-20 px-3">
+                                    Daftar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile -->
+            <div class="container d-lg-none sticky-top px-4 py-3">
+                <div class="row justify-content-space-between pb-3">
+                    <a class="col-auto my-auto">
+                        <img src="assets/images/logo.png" width="150" alt="logo">
+                    </a>
+                    <div class="col-auto my-auto font-18 cursor text-white">
+                        <i class="fas fa-align-justify"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <input type="search" class="form-control form-control-sm font-12 p-2 b-y-l-10 border-none" placeholder="Belanja apa hari ini?">
+                            <button class="btn btn-sm btn-group-append px-3 b-y-r-10" type="button" id="button-addon2">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper py-3 px-4">
+            <div class="container-fluid">
+                <div id="product" class="row"></div>
+            </div>
+        </div>
+        <footer class="bg-custom text-center text-white">
+            Copyright &copy; PT. Ocommerce Capital Indonesia.
+        </footer>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="fetch.js"></script>
+    </body>
+</html>
